@@ -1,0 +1,65 @@
+header{
+    background:#363636
+}
+
+img{
+    margin: 0 0 15px 0;
+}
+
+#titulo{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-decoration:underline;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 104px;
+}
+
+main{
+    width: 950px;
+    margin: 0 auto;
+}
+
+main input{
+    display: block;
+    width: 50%;
+}
+
+main label{
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+
+footer{
+    background: #363636;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}

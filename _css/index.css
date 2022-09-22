@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+header{
+    background: #363636
+}
+
+img{
+    margin: 0 0 15px 0;
+}
+
+#titulo{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-decoration:underline;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 104px;
+}
+
+main{
+    text-align: center;
+    padding: 40px;
+    margin: 100px 200px;
+}
+
+main p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.missao{
+    font-style:initial;
+    font-size: 25px;
+}
+
+strong{
+    color: red;
+    font-weight: bolder;
+}
+
+footer{
+    background: #363636;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
