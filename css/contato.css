@@ -74,3 +74,22 @@ footer{
 .checkbox{
     margin: 40px 10px 40px 0;
 }
+
+.enviar{
+    width: 40%;
+    padding: 20px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.enviar:hover{
+    background: darkorange;
+}
+
+.enviar:active{
+    background: orange;
+}
