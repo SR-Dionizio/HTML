@@ -23,6 +23,10 @@ h1{
     font-size: 35px;
 }
 
+main{
+    margin: 300px 0;
+}
+
 nav li{
     display: inline;
     margin: 0 0 0 15px;
