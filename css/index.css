@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: #363636
 }
@@ -31,6 +35,7 @@ nav a{
     color: white;
     font-size: 22px;
     text-decoration:underline;
+    text-transform: uppercase;
 }
 
 nav a:hover{
