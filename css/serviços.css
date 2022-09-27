@@ -2,8 +2,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    position: relative;
+    background: linear-gradient(#fefefe 40%, #888888 );
 }
 
 header{
@@ -104,6 +103,4 @@ footer{
     text-align: center;
     color: white;
     padding: 20px;
-    position: absolute;
-    width: 100%;
 }
