@@ -136,6 +136,13 @@ strong{
 #imagem-diferenciais{
     width: 40%;
     margin: 0 auto;
+    transition: 400ms;
+    box-shadow:  0 0 30px black;
+    margin:2em;
+}
+
+#imagem-diferenciais:hover{
+    opacity: 0.4;
 }
 
 #video{
