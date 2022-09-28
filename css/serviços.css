@@ -13,7 +13,7 @@ img{
     margin: 0 0 15px 0;
 }
 
-#titulo{
+.titulo{
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -103,4 +103,20 @@ footer{
     text-align: center;
     color: white;
     padding: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .titulo, .serviço, h1, .logo-inicial, nav{
+        width: auto;
+        position: static;
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
+
+    .serviço li{
+        display: block;
+        width: 90%;
+        margin: 1em auto;
+    }
+
 }

@@ -117,3 +117,24 @@ td, th{
     padding: 8px 15px;
 }
 
+@media screen and (max-width: 480px){
+    #titulo, h1, .logo-inicial, nav, main{
+        width: auto;
+        position: static;
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
+
+    .enviar{
+        width: 50%;
+        text-align: center;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    label{
+        text-align: left;
+    }
+}

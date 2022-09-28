@@ -126,7 +126,7 @@ strong{
 }
 
 .itens-diferenciais::before{
-    content: "✰ ";
+    content: "✰";
 }
 
 .itens-diferenciais:first-child{
@@ -155,3 +155,20 @@ footer{
     color: white;
     padding: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .titulo, nav, #mapa-conteudo, .bem-vindo, .lista-diferenciais{
+        width: auto;
+        position: static;
+    }
+
+    h1, ul, .titulo{
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
+
+    .diferenciais{
+        text-align: center;
+    }
+}
+
